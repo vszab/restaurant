@@ -1,0 +1,279 @@
+body {
+	background-color: #f4fce8;
+}
+h2 {
+	
+	padding-bottom: 24px;
+	font-family:  Arial, sans-serif;
+}
+#bookings {
+	font-family:  Arial, sans-serif;
+    padding: 15px;
+  	width: 100%;
+	border: collapse;
+}
+#bookings th{  
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+#del {
+	font-family:  Arial, sans-serif;
+    padding: 15px;
+  	width: 100%;
+	
+}
+#del th{  
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+#del td, #del th{
+	text-align: center;
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+#msgbox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;	
+	border: collapse;
+}
+#msgbox th{  
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+
+#msgbox tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#msgbox td, th {
+	text-align: center
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#calendar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;	
+	border: collapse;
+}
+#calendar th{  
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+
+#calendar tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#calendar td, th {
+	border: 1px solid #ddd;
+    padding: 10px;
+	 text-align: center;
+}
+#edit {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;	
+	border: collapse;
+}
+#edit th{  
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ddd;
+    color: black;
+}
+#updateable {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	border: collapse;
+	display: center;
+	padding-top: 12px;
+    padding-bottom: 12px;
+	margin: auto;
+	width: 400px;
+}	
+} 
+#read {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 100%;	
+	border: collapse;	
+}
+
+
+
+#read th{  
+	font-size: 15px;
+	border: 1px solid #ddd;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+}
+#bookings td, #bookings th {
+	text-align: center;
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+#bookings tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#edit td, #it th {
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+#edit tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.content{
+	border: 1px solid black;
+	background-color: white;
+}
+
+#add td {
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#read td{
+	font-size: 15px;
+	border: 1px solid #ddd;
+    padding: 10px;
+}
+.btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+
+#box {
+	display: center;
+	padding-top: 12px;
+    padding-bottom: 12px;
+	margin: auto;
+	width: 400px;
+}
+#manually {
+	margin: auto;
+	padding-top: 12px;
+    padding-bottom: 12px;
+	display: left;
+	width: 500px;
+}
+#lin {
+	display: center;
+	padding-top: 12px;
+    padding-bottom: 12px;
+	margin: auto;
+	width: 400px;
+}
+.centered{
+	background-color: white;
+	display: center;
+	padding-top: 25px;
+    padding-bottom: 25px;
+	margin: auto;
+	width: 80%;
+}
+.instruction {
+	display: center;
+	padding-top: 12px;
+    padding-bottom: 12px;
+	margin: auto;
+	width: 400px;
+}
+.container{
+	margin: auto;
+	width:80%;
+	padding-top: 12px;
+    padding-bottom: 12px;
+}
+.leftbutton{
+	display:left;
+	width:80%;
+	padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#caldate {
+	color: red;
+}
+
+.span{
+	padding-left:15px;
+	display: inline;
+	padding-right:15px;
+	padding-top: 25px;
+	padding-bottom:40px;
+}
+
+h3 {
+	padding-bottom: 24px;
+	font-family:  Arial, sans-serif;
+	color: #820b3b;
+}
+
+#dash{
+	background-color: #f4e542;
+	width: 50%
+}
+
+.topnav {
+
+    background-color:#913137;
+    overflow: hidden;
+}
+
+
+.topnav a {
+	float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#lout {
+	text-align: right;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ad5354;
+    color: white;
+    text-align: center;
+}
