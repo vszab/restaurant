@@ -27,8 +27,5 @@ session_start();
 <div class="centered">
 <h2>Your password has been successfully updated, please <a href="../actions/login.php">sign in</a> again</h2>
 </div>
-<div class="footer">
-  <p>Restaurant Reservation Web App - vszabo02 - BBK -2018</p>
-</div>	
 </body>
 </html>
