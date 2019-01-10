@@ -46,9 +46,5 @@ require_once('../includes/functions.php');
 	</div>
 </form>
 </div>
-</div>
-<div class="footer">
-  <p>Restaurant Reservation Web App - vszabo02 - BBK -2018</p>
-</div>
 </body>
 </html>
